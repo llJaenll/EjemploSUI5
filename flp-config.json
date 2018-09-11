@@ -1,0 +1,34 @@
+{
+    "application": {
+        "id": "",
+        "title": "hdpdeale.Hdp_Dealer.Hdp_Dealer",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/webapp",
+        "appUrl": "#Hdp_Dealer-Display",
+        "navigationComponentName": "hdpdeale.Hdp_Dealer",
+        "intentSemanticObject": "Hdp_Dealer",
+        "intentAction": "Display",
+        "html5ApplicationName": "hdpdealer",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "1f3bd2d2-8c5e-4fc3-a0c2-df4d5492ee5d-1533760152861"
+        ],
+        "contentPackages": [
+            "a6e20247-445b-4695-8a48-01884f5c12bc-1533759915929"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Dealer",
+        "subtitle": "",
+        "searchKeywords": "Dealer,",
+        "displayIconUrl": "sap-icon://account",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
