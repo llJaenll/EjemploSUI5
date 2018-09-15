@@ -1,0 +1,25 @@
+<c:FragmentDefinition
+	xmlns:c="sap.ui.core"
+	xmlns:l="sap.ui.layout" 
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	 <l:VerticalLayout width="100%">
+	 	<List
+		id="ProductList"
+		delete="handleDelete"
+		mode="Delete">
+		<headerToolbar>
+			<Toolbar>
+				<content>
+					<Title text="Archivos" level="H2" />
+					<ToolbarSpacer />
+					<Button type="Default" icon="sap-icon://add"></Button>
+				</content>
+			</Toolbar>
+		</headerToolbar>
+		<StandardListItem
+			title="Archivo 1"
+			iconInset="false"/>
+	</List>
+		</l:VerticalLayout>
+</c:FragmentDefinition>

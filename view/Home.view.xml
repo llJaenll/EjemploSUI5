@@ -1,0 +1,36 @@
+<mvc:View 
+    controllerName="sap.ui.ejemploProyecto.controller.Home" 
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:u="sap.ui.unified"
+    xmlns:l="sap.ui.layout"
+    xmlns:ef="sap.f"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:c="sap.ui.core"
+    xmlns:m="sap.ui.table"
+    xmlns="sap.m">
+    <Page title="Prueba Titulo" showNavButton="false">
+	    
+		<l:HorizontalLayout class="sapUiContentPadding" width="100%">
+
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Prueba"
+		subheader="1" frameType="OneByOne" press="onClick1">
+				<TileContent unit="" footer="">
+					<ImageContent src="sap-icon://accounting-document-verification" />
+				</TileContent>
+			</GenericTile>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Prueba"
+		subheader="2" frameType="OneByOne" press="onClick1">
+				<TileContent unit="" footer="">
+					<ImageContent src="sap-icon://accounting-document-verification" />
+				</TileContent>
+			</GenericTile>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Prueba"
+		subheader="3" frameType="OneByOne" press="onClick1">
+				<TileContent unit="" footer="">
+					<ImageContent src="sap-icon://accounting-document-verification" />
+				</TileContent>
+			</GenericTile>
+
+		</l:HorizontalLayout>
+    </Page>
+</mvc:View>

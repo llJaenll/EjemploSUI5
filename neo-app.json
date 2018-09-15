@@ -1,5 +1,5 @@
 {
-  "welcomeFile": "/webapp/index.html",
+  "welcomeFile": "index.html",
   "routes": [
     {
       "path": "/resources",
@@ -19,6 +19,5 @@
       },
       "description": "SAPUI5 Test Resources"
     }
-  ],
-  "sendWelcomeFileRedirect": true
+  ]
 }

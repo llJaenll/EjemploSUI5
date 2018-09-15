@@ -1,0 +1,28 @@
+{
+	"EntryCollection": [
+		{
+			"Author": "Jahir Díaz",
+			"AuthorPicUrl": "http://www.tli.com.pe/images/index_02.jpg",
+			"Type": "Request",
+			"Date": "11 jul. 2018 11:16:23",
+			"Actions": [
+				{
+					"Text": "Delete",
+					"Icon": "sap-icon://delete",
+					"Key": "delete"
+				},
+				{
+					"Text": "Share",
+					"Icon": "sap-icon://share-2",
+					"Key": "share"
+				},
+				{
+					"Text": "Edit",
+					"Icon": "sap-icon://edit",
+					"Key": "edit"
+				}
+			],
+			"Text": "Prueba"
+		}
+	]
+}

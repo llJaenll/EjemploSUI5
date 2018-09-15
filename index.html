@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="./icon.png">
+    <title>Prueba Jaen Pierre</title>
+    <script id="sap-ui-bootstrap" 
+        src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js" 
+        data-sap-ui-theme="sap_belize" 
+        data-sap-ui-libs="sap.m" 
+        data-sap-ui-compatVersion="edge" 
+        data-sap-ui-preload="async" 
+        data-sap-ui-resourceroots='{
+            "sap.ui.ejemploProyecto": "./",
+            "sap.ui.sta": "../AppBarra"
+         }'>
+
+    </script>
+    <script src="https://blueimp.github.io/JavaScript-MD5/js/md5.js"></script>
+    <link href="util/styleformat.css" rel="stylesheet"/>
+    <script>
+        sap.ui.getCore().attachInit(function() {
+            new sap.m.Shell({
+                app: new sap.ui.core.ComponentContainer({
+                    name: "sap.ui.ejemploProyecto",
+                    height: "100%"
+                })
+            }).placeAt("content");
+        });
+
+    </script>
+</head>
+
+<body class="sapUiBody" id="content">
+</body>
+
+</html>
